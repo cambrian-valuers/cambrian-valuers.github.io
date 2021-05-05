@@ -33,50 +33,57 @@
 
 </head>
 
-<body class="header-horizontal dark-overlay">
+<body class="header-vertical dark-overlay">
 
 <!-- Body Wrapper -->
 <div id="body-wrapper" class="animsition" data-animsition-overlay="true">
 
     <!-- Header -->
-    <header id="header" class="header-horizontal dark">
-        
-        <!-- Module - Navigation -->
-        <nav id="navigation-main" class="module module-nav">
-            <ul class="nav nav-main-horizontal">
-                <li><a href="#home">Start</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#flats">Flats List</a></li>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#who-we-are">Who we are?</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <div class="selector"></div>
-        </nav>
+    <header id="header" class="header-vertical dark">
 
-        <!-- Module - Objects -->
-        <div class="module module-object" data-toggle="panel-objects">
-            <img class="object-image" src="assets/img/photos/object_thumbnail.png" alt="">
-            <span class="object-name">Wroclaw, Zlota 66</span>
-            <span class="object-indicator"><i class="ti ti-menu"></i></span>
+        <div class="header-vertical-container">
+
+            <!-- Module - Logo -->
+            <a href="index-vertical.html" class="module module-logo"><img src="assets/img/logo-light-vertical.svg" width="80" alt=""></a>
+            
+            <!-- Module - Navigation -->
+            <nav id="navigation-main" class="module module-nav">
+                <ul class="nav nav-main-vertical">
+                    <li><a href="#home">Start</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#flats">Flats List</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="selector"></div>
+            </nav>
+
+            <!-- Module - Objects -->
+            <div class="module module-object" data-toggle="panel-objects">
+                <img class="object-image" src="assets/img/photos/object_thumbnail.png" alt="">
+                <span class="object-name">Wroclaw, Zlota 66</span>
+                <span class="object-indicator"><i class="ti ti-menu"></i></span>
+            </div>
+
         </div>
 
-        <!-- Module - Language -->
-        <nav class="module module-language mr-3">
-            <ul class="nav nav-main-horizontal nav-language">
-                <li><a href="#">PL</a></li>
-                <li><a class="active" href="#">EN</a></li>
-            </ul>
-        </nav>
+    </header>
+    <!-- Header / End -->
+
+    <!-- Navigation Mobile -->
+    <nav id="navigation-mobile" class="dark">
+
+        <!-- Module - Logo -->
+        <a href="index-vertical.html" class="module module-logo"><img src="assets/img/logo-light.svg" width="80" alt=""></a>
 
         <!-- Module - Navigation Toggle -->
         <div class="module module-nav-toggle">
             <a href="#" id="nav-toggle" class="nav-toggle"><span></span><span></span><span></span><span></span></a>
         </div>
 
-    </header>
-    <!-- Header / End -->
+    </nav>
+    <!-- Navigation Mobile / End -->
 
     <!-- Content -->
     <div id="content">
@@ -88,46 +95,46 @@
             <div class="slider-main slider-kenburns inner-controls">
                 <!-- Slide -->
                 <div class="slide">
-                    <div class="slide-bg bg-image-holder bg-image-fixed">
+                    <div class="slide-bg bg-image-holder">
                         <img src="assets/img/photos/slider01.jpg" alt="">
                     </div>
-                    <div class="slide-content container text-center">
+                    <div class="slide-content container-custom text-center">
                         <h1>Neat architecture design</h1>
                     </div>
                 </div>
                 <!-- Slide -->
                 <div class="slide">
-                    <div class="slide-bg bg-image-holder bg-image-fixed">
+                    <div class="slide-bg bg-image-holder">
                         <img src="assets/img/photos/slider02.jpg" alt="">
                     </div>
-                    <div class="slide-content container text-center">
+                    <div class="slide-content container-custom text-center">
                         <h1>Firendly einvroment</h1>
                     </div>
                 </div>
                 <!-- Slide -->
                 <div class="slide">
-                    <div class="slide-bg bg-image-holder bg-image-fixed">
+                    <div class="slide-bg bg-image-holder">
                         <img src="assets/img/photos/slider03.jpg" alt="">
                     </div>
-                    <div class="slide-content container text-center">
+                    <div class="slide-content container-custom text-center">
                         <h1>Perfect details</h1>
                     </div>
                 </div>
                 <!-- Slide -->
                 <div class="slide">
-                    <div class="slide-bg bg-image-holder bg-image-fixed">
+                    <div class="slide-bg bg-image-holder">
                         <img src="assets/img/photos/slider04.jpg" alt="">
                     </div>
-                    <div class="slide-content container text-center">
+                    <div class="slide-content container-custom text-center">
                         <h1>Beautiful interiors</h1>
                     </div>
                 </div>
                 <!-- Slide -->
                 <div class="slide">
-                    <div class="slide-bg bg-image-holder bg-image-fixed">
+                    <div class="slide-bg bg-image-holder">
                         <img src="assets/img/photos/slider05.jpg" alt="">
                     </div>
-                    <div class="slide-content container text-center">
+                    <div class="slide-content container-custom text-center">
                         <h1>Feel the nature</h1>
                     </div>
                 </div>
@@ -155,7 +162,7 @@
         <!-- Section / About -->
         <section id="about" class="section">
 
-            <div class="container">
+            <div class="container-custom">
                 <div class="row gutters-lg align-items-center">
                     <div class="col-lg-4">
                         <span class="badge badge-default mb-5"><i class="fa fa-check-circle text-success"></i>Ready to sell</span>
@@ -198,7 +205,7 @@
             <!-- Objects - Search -->
             <div class="objects-search bg-dark dark">
                 <div class="bg-image-holder bg-image-fixed zooming"><img src="assets/img/photos/search-bg.jpg" alt=""></div>
-                <div class="container">
+                <div class="container-custom">
                     <h1 class="mb-1">Find perfect flat for you!</h1>
                     <p class="lead text-muted">Put some details about your requirmets or view flats on list below.</p>
                     <hr>
@@ -237,7 +244,7 @@
                 </div>
             </div>
 
-            <div class="objects-container container">
+            <div class="objects-container container-custom">
                 <div class="text-right">
                     <!-- Objects - Change Display -->
                     <ul class="nav nav-view" role="tablist">
@@ -253,17 +260,17 @@
                                 <!-- Object - Vertical -->
                                 <div class="object object-vertical">
                                     <div class="object-image">
-                                        <a class="link-inherit" href="object.html"><img src="assets/img/objects/object01.jpg" alt=""></a>
+                                        <a class="link-inherit" href="object-vertical.html"><img src="assets/img/objects/object01.jpg" alt=""></a>
                                     </div>
                                     <div class="object-content">
-                                        <h5 class="object-title"><a class="link-inherit" href="object.html">Small Flat</a></h5>
+                                        <h5 class="object-title"><a class="link-inherit" href="object-vertical.html">Small Flat</a></h5>
                                         <ul class="object-details list-unstyled">
                                             <li><span class="text-muted">Total area:</span> 92m<sup>2</sup></li>
                                             <li><span class="text-muted">Bedrooms:</span> 2</li>
                                             <li><span class="text-muted">Floor:</span> 1</li>
                                         </ul>
                                         <span class="object-price">$422 200</span>
-                                        <a href="object.html" class="object-btn btn btn-secondary"><span class="hidden-xs-down">View</span> Details</a>
+                                        <a href="object-vertical.html" class="object-btn btn btn-secondary"><span class="hidden-xs-down">View</span> Details</a>
                                     </div> 
                                 </div>
                             </div>
@@ -271,11 +278,11 @@
                                 <!-- Object - Vertical -->
                                 <div class="object object-vertical">
                                     <div class="object-image">
-                                        <a class="link-inherit" href="object.html"><img src="assets/img/objects/object02.jpg" alt=""></a>
+                                        <a class="link-inherit" href="object-vertical.html"><img src="assets/img/objects/object02.jpg" alt=""></a>
                                     </div>
                                     <div class="object-content">
                                         <h5 class="object-title">
-                                            <a class="link-inherit" href="object.html">Large Flat</a>
+                                            <a class="link-inherit" href="object-vertical.html">Large Flat</a>
                                             <i class="fa fa-check-circle text-success ml-2" data-toggle="tooltip" data-placement="top" title="Best choice!"></i>
                                         </h5>
                                         <ul class="object-details list-unstyled">
@@ -284,7 +291,7 @@
                                             <li><span class="text-muted">Floor:</span> 1</li>
                                         </ul>
                                         <span class="object-price">$422 200</span>
-                                        <a href="object.html" class="object-btn btn btn-secondary"><span class="hidden-xs-down">View</span> Details</a>
+                                        <a href="object-vertical.html" class="object-btn btn btn-secondary"><span class="hidden-xs-down">View</span> Details</a>
                                     </div> 
                                 </div>
                             </div>
@@ -292,17 +299,17 @@
                                 <!-- Object - Vertical -->
                                 <div class="object object-vertical">
                                     <div class="object-image">
-                                        <a class="link-inherit" href="object.html"><img src="assets/img/objects/object03.jpg" alt=""></a>
+                                        <a class="link-inherit" href="object-vertical.html"><img src="assets/img/objects/object03.jpg" alt=""></a>
                                     </div>
                                     <div class="object-content">
-                                        <h5 class="object-title"><a class="link-inherit" href="object.html">Medium Flat</a></h5>
+                                        <h5 class="object-title"><a class="link-inherit" href="object-vertical.html">Medium Flat</a></h5>
                                         <ul class="object-details list-unstyled">
                                             <li><span class="text-muted">Total area:</span> 92m<sup>2</sup></li>
                                             <li><span class="text-muted">Bedrooms:</span> 2</li>
                                             <li><span class="text-muted">Floor:</span> 1</li>
                                         </ul>
                                         <span class="object-price">$422 200</span>
-                                        <a href="object.html" class="object-btn btn btn-secondary"><span class="hidden-xs-down">View</span> Details</a>
+                                        <a href="object-vertical.html" class="object-btn btn btn-secondary"><span class="hidden-xs-down">View</span> Details</a>
                                     </div> 
                                 </div>
                             </div>
@@ -310,17 +317,17 @@
                                 <!-- Object - Vertical -->
                                 <div class="object object-vertical">
                                     <div class="object-image">
-                                        <a class="link-inherit" href="object.html"><img src="assets/img/objects/object04.jpg" alt=""></a>
+                                        <a class="link-inherit" href="object-vertical.html"><img src="assets/img/objects/object04.jpg" alt=""></a>
                                     </div>
                                     <div class="object-content">
-                                        <h5 class="object-title"><a class="link-inherit" href="object.html">Studio</a></h5>
+                                        <h5 class="object-title"><a class="link-inherit" href="object-vertical.html">Studio</a></h5>
                                         <ul class="object-details list-unstyled">
                                             <li><span class="text-muted">Total area:</span> 92m<sup>2</sup></li>
                                             <li><span class="text-muted">Bedrooms:</span> 2</li>
                                             <li><span class="text-muted">Floor:</span> 1</li>
                                         </ul>
                                         <span class="object-price">$422 200</span>
-                                        <a href="object.html" class="object-btn btn btn-secondary"><span class="hidden-xs-down">View</span> Details</a>
+                                        <a href="object-vertical.html" class="object-btn btn btn-secondary"><span class="hidden-xs-down">View</span> Details</a>
                                     </div> 
                                 </div>
                             </div>
@@ -332,10 +339,10 @@
                             <!-- Object - Horizontal -->
                             <div class="object object-horizontal">
                                 <div class="object-image">
-                                    <a class="link-inherit" href="object.html"><img src="assets/img/objects/object01.jpg" alt=""></a>
+                                    <a class="link-inherit" href="object-vertical.html"><img src="assets/img/objects/object01.jpg" alt=""></a>
                                 </div>
                                 <div class="object-content">
-                                    <h5 class="object-title"><a class="link-inherit" href="object.html">Small Flat</a></h5>
+                                    <h5 class="object-title"><a class="link-inherit" href="object-vertical.html">Small Flat</a></h5>
                                     <ul class="object-details list-inline">
                                         <li class="list-inline-item"><span class="text-muted">Total area:</span> 92m<sup>2</sup></li>
                                         <li class="list-inline-item"><span class="text-muted">Bedrooms:</span> 2</li>
@@ -343,16 +350,16 @@
                                     </ul>
                                     <span class="object-price">$422 200</span>
                                 </div> 
-                                <a href="object.html" class="object-btn btn btn-secondary"><span class="hidden-xs-down">View</span> Details</a>
+                                <a href="object-vertical.html" class="object-btn btn btn-secondary"><span class="hidden-xs-down">View</span> Details</a>
                             </div>
                             <!-- Object - Horizontal -->
                             <div class="object object-horizontal">
                                 <div class="object-image">
-                                    <a class="link-inherit" href="object.html"><img src="assets/img/objects/object02.jpg" alt=""></a>
+                                    <a class="link-inherit" href="object-vertical.html"><img src="assets/img/objects/object02.jpg" alt=""></a>
                                 </div>
                                 <div class="object-content">
                                     <h5 class="object-title">
-                                        <a class="link-inherit" href="object.html">Large Flat</a>
+                                        <a class="link-inherit" href="object-vertical.html">Large Flat</a>
                                         <i class="fa fa-check-circle text-success ml-2" data-toggle="tooltip" data-placement="top" title="Best choice!"></i>
                                     </h5>
                                     <ul class="object-details list-inline">
@@ -362,15 +369,15 @@
                                     </ul>
                                     <span class="object-price">$422 200</span>
                                 </div> 
-                                <a href="object.html" class="object-btn btn btn-secondary"><span class="hidden-xs-down">View</span> Details</a>
+                                <a href="object-vertical.html" class="object-btn btn btn-secondary"><span class="hidden-xs-down">View</span> Details</a>
                             </div>
                             <!-- Object - Horizontal -->
                             <div class="object object-horizontal">
                                 <div class="object-image">
-                                    <a class="link-inherit" href="object.html"><img src="assets/img/objects/object03.jpg" alt=""></a>
+                                    <a class="link-inherit" href="object-vertical.html"><img src="assets/img/objects/object03.jpg" alt=""></a>
                                 </div>
                                 <div class="object-content">
-                                    <h5 class="object-title"><a class="link-inherit" href="object.html">Medium Flat</a></h5>
+                                    <h5 class="object-title"><a class="link-inherit" href="object-vertical.html">Medium Flat</a></h5>
                                     <ul class="object-details list-inline">
                                         <li class="list-inline-item"><span class="text-muted">Total area:</span> 92m<sup>2</sup></li>
                                         <li class="list-inline-item"><span class="text-muted">Bedrooms:</span> 2</li>
@@ -378,15 +385,15 @@
                                     </ul>
                                     <span class="object-price">$422 200</span>
                                 </div> 
-                                <a href="object.html" class="object-btn btn btn-secondary"><span class="hidden-xs-down">View</span> Details</a>
+                                <a href="object-vertical.html" class="object-btn btn btn-secondary"><span class="hidden-xs-down">View</span> Details</a>
                             </div>
                             <!-- Object - Horizontal -->
                             <div class="object object-horizontal">
                                 <div class="object-image">
-                                    <a class="link-inherit" href="object.html"><img src="assets/img/objects/object04.jpg" alt=""></a>
+                                    <a class="link-inherit" href="object-vertical.html"><img src="assets/img/objects/object04.jpg" alt=""></a>
                                 </div>
                                 <div class="object-content">
-                                    <h5 class="object-title"><a class="link-inherit" href="object.html">Studio</a></h5>
+                                    <h5 class="object-title"><a class="link-inherit" href="object-vertical.html">Studio</a></h5>
                                     <ul class="object-details list-inline">
                                         <li class="list-inline-item"><span class="text-muted">Total area:</span> 92m<sup>2</sup></li>
                                         <li class="list-inline-item"><span class="text-muted">Bedrooms:</span> 2</li>
@@ -394,7 +401,7 @@
                                     </ul>
                                     <span class="object-price">$422 200</span>
                                 </div> 
-                                <a href="object.html" class="object-btn btn btn-secondary"><span class="hidden-xs-down">View</span> Details</a>
+                                <a href="object-vertical.html" class="object-btn btn btn-secondary"><span class="hidden-xs-down">View</span> Details</a>
                             </div>
                         </div>
                     </div>
@@ -425,10 +432,11 @@
 
         </section> 
 
+
         <!-- Section / Features -->
         <section id="features" class="section">
 
-            <div class="container">
+            <div class="container-custom">
                 <div class="row align-items-center" data-local-scroll>
                     <div class="col-lg-4">
                         <h1>Features</h1>
@@ -578,14 +586,14 @@
     <!-- Footer -->
     <footer id="footer" class="footer-fixed bg-dark dark">
 
-        <div class="container">
+        <div class="container-custom">
             <div class="row align-items-center">
                 <div class="col-md-6 text-center text-md-left mb-5 mb-md-0">
-                    <a href="index.html"><img src="assets/img/logo-light.svg" width="120" alt=""></a>
+                    <a href="index-vertical.html"><img src="assets/img/logo-light.svg" width="120" alt=""></a>
                 </div>
                 <div class="col-md-6 text-center text-md-right">
                     <ul class="nav nav-footer mr-4">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index-vertical.html">Home</a></li>
                         <li><a href="documentation.html" target="_blank">Documentation</a></li>
                         <li><a href="https://themeforest.net/user/suelo?ref=suelo" target="_blank">More</a></li>
                     </ul>
@@ -616,9 +624,9 @@
             <div class="col-md-4 col-sm-6">
                 <!-- Panel Objects Item -->
                 <div class="panel-objects-item">
-                    <a href="index.html" class="panel-objects-item-image"><img src="assets/img/objects/panel-object01.jpg" alt=""></a>
+                    <a href="index-vertical.html" class="panel-objects-item-image"><img src="assets/img/objects/panel-object01.jpg" alt=""></a>
                     <div class="panel-objects-item-content">
-                        <a href="index.html" class="link-reset">
+                        <a href="index-vertical.html" class="link-reset">
                             <h5 class="mb-0">Wroclaw, Zlota 22</h5>
                             <ul class="list-inline mb-0">
                                 <li class="list-inline-item"><span class="text-muted">Total area:</span> 22m</li>
@@ -631,9 +639,9 @@
             <div class="col-md-4 col-sm-6">
                 <!-- Panel Objects Item -->
                 <div class="panel-objects-item">
-                    <a href="index.html" class="panel-objects-item-image"><img src="assets/img/objects/panel-object02.jpg" alt=""></a>
+                    <a href="index-vertical.html" class="panel-objects-item-image"><img src="assets/img/objects/panel-object02.jpg" alt=""></a>
                     <div class="panel-objects-item-content">
-                        <a href="index.html" class="link-reset">
+                        <a href="index-vertical.html" class="link-reset">
                             <h5 class="mb-0">Warsaw, Zielona 6</h5>
                             <ul class="list-inline mb-0">
                                 <li class="list-inline-item"><span class="text-muted">Total area:</span> 22m</li>
@@ -646,9 +654,9 @@
             <div class="col-md-4 col-sm-6">
                 <!-- Panel Objects Item -->
                 <div class="panel-objects-item">
-                    <a href="index.html" class="panel-objects-item-image"><img src="assets/img/objects/panel-object03.jpg" alt=""></a>
+                    <a href="index-vertical.html" class="panel-objects-item-image"><img src="assets/img/objects/panel-object03.jpg" alt=""></a>
                     <div class="panel-objects-item-content">
-                        <a href="index.html" class="link-reset">
+                        <a href="index-vertical.html" class="link-reset">
                             <h5 class="mb-0">Cracow, Jageillonska 51</h5>
                             <ul class="list-inline mb-0">
                                 <li class="list-inline-item"><span class="text-muted">Total area:</span> 22m</li>
@@ -666,16 +674,6 @@
     </div>
 
 </nav>
-
-<!-- Video Modal / Demo -->
-<div class="modal modal-video fade" id="modalVideo" role="dialog">
-    <button class="close dark" data-dismiss="modal"></button>
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <iframe height="500"></iframe>
-        </div>
-    </div>
-</div>
 
 <!-- JS Plugins -->
 <script src="assets/plugins/jquery/dist/jquery.min.js"></script>
